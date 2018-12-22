@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="987cd6b9-11b2-4b6d-b5cd-40dca556c708" name="Default Changelist" comment="" />
+    <list default="true" id="987cd6b9-11b2-4b6d-b5cd-40dca556c708" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmjpg/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmjpg/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mmjpg/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobao-foods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/taobao-foods/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toutiao/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/toutiao/toutiao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +22,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/py_spider$app.coverage" NAME="app Coverage Results" MODIFIED="1543755915113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/taobao-foods" />
+    <SUITE FILE_PATH="coverage/py_spider$toutiao.coverage" NAME="toutiao Coverage Results" MODIFIED="1544187990541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/toutiao" />
     <SUITE FILE_PATH="coverage/py_spider$maoyan_top100.coverage" NAME="maoyan-top100 Coverage Results" MODIFIED="1542980654626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/py_spider$app__1_.coverage" NAME="app (1) Coverage Results" MODIFIED="1545452762091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/mmjpg" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -38,18 +54,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="104">
-                <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/mmjpg/app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -59,14 +90,20 @@
         <option value="$PROJECT_DIR$/maoyan-top100.txt" />
         <option value="$PROJECT_DIR$/maoyan-top100.py" />
         <option value="$PROJECT_DIR$/maoyan-top100/maoyan-top100.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/toutiao/config.py" />
+        <option value="$PROJECT_DIR$/taobao-foods/app.py" />
+        <option value="$PROJECT_DIR$/toutiao/toutiao.py" />
+        <option value="$PROJECT_DIR$/mmjpg/config.py" />
+        <option value="$PROJECT_DIR$/mmjpg/app.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1366" />
-    <option name="height" value="674" />
+    <option name="height" value="670" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -86,22 +123,15 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="py-spider" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py-spider" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -114,7 +144,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -133,7 +163,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.app (1)">
+    <configuration name="app (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py-spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/mmjpg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mmjpg/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py-spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/taobao-foods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/taobao-foods/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="maoyan-top100" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py-spider" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -156,8 +230,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="toutiao" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="py-spider" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/toutiao" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/toutiao/toutiao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app (1)" />
+        <item itemvalue="Python.toutiao" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.maoyan-top100" />
       </list>
     </recent_temporary>
@@ -172,33 +271,43 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542889713047</updated>
-      <workItem from="1542976874525" duration="4964000" />
+      <workItem from="1542976874525" duration="5478000" />
+      <workItem from="1543077258454" duration="191000" />
+      <workItem from="1543077511138" duration="996000" />
+      <workItem from="1543150054539" duration="4437000" />
+      <workItem from="1543678131545" duration="272000" />
+      <workItem from="1543679404157" duration="861000" />
+      <workItem from="1543718982915" duration="9928000" />
+      <workItem from="1544188553147" duration="1323000" />
+      <workItem from="1545062756822" duration="757000" />
+      <workItem from="1545064604290" duration="275000" />
+      <workItem from="1545140671050" duration="4089000" />
+      <workItem from="1545446675727" duration="5500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4964000" />
+    <option name="totallyTimeSpent" value="34107000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1366" height="674" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1366" height="768" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17522658" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20015106" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286219" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.41696113" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32844576" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848944" weight="0.3431085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39929327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Console" order="7" weight="0.32685512" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32685512" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50151056" side_tool="true" weight="0.32685512" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3240469" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="12" sideWeight="0.50151056" side_tool="true" visible="true" weight="0.3240469" />
       <window_info anchor="bottom" id="Python Console" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -211,59 +320,191 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://f54aed2c-81cc-4d06-b052-5edcb69be9ad/schema/main/table/sqlite_master" />
-    <entry file="das://0ce93a39-476c-4d71-a040-73ee1d926a6c/schema/main/table/mao" />
-    <entry file="das://0ce93a39-476c-4d71-a040-73ee1d926a6c/schema/main/table/top100" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ce93a39-476c-4d71-a040-73ee1d926a6c/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mmjpg/5i4p.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0ce93a39-476c-4d71-a040-73ee1d926a6c/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/mmjpg/50i3p.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan-top100/maoyan-top100.txt">
+    <entry file="file://$PROJECT_DIR$/mmjpg/49iw6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/48i5a.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/47ihv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/46in3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/45iev.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/2icg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/钀屽懗鍗佽冻鐨勫皬灏ゅ闆櫧鑳翠綋鐩稿綋鎬ф劅/1i28.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/æè³å«©å¦¹å­å¯å¿å²äººåå³°åªåå¾é­/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/1i5x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/2is8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/4izl.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/19i4q.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/31i72.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/39i40.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/3i7v.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/5ikq.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/7ij2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/17iz9.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/22i0d.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/40iuc.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/44ieo.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/50idv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/51i9l.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/52iyb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/53ig0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/54i7t.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/55i8b.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ç¾å¥³å°å°¤å¥éªç½çç¾èå¾çä»¤äººå·è¡/24if4.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/14.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/29.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/31.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/ROSIåçç¬¬73æçä¹³ç¾èå¦¹å­ä¸å®¹éè¿/33.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="9" column="172" selection-start-line="9" selection-start-column="172" selection-end-line="9" selection-end-column="172" />
+        <state relative-caret-position="26">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/maoyan-top100/maoyan-top100.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        <state relative-caret-position="100">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f54aed2c-81cc-4d06-b052-5edcb69be9ad/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/mmjpg/å¥³ç¥çé¨çº¯å¶æç§å¥½æ³æ¯ä¸è¿ä»¶è¡£æ/1izn.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pipfile">
+    <entry file="file://$PROJECT_DIR$/mmjpg/å¥³ç¥çé¨çº¯å¶æç§å¥½æ³æ¯ä¸è¿ä»¶è¡£æ/2i2y.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å¨é²æå¼å¶æè¯±ææ¹ç«ç¾ä¹³å¤ªæ¢é/1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/1igf.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/53iys.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/52i31.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/39igb.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/6imx.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/4i6o.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/10ip6.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/19i4f.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/å°ä¹æå¯ç¾åçèé¼é¼çè¸é¨å¼äººå¥½å¥/29i1l.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mmjpg/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="108">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="104">
-            <caret line="4" column="29" lean-forward="true" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
